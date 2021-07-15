@@ -1,0 +1,19 @@
+butterfly use [plugin]
+
+folder1/folder2/[plugin]
+
+use:
+  [plugin]:
+    ☐ index -> custom runner
+      ☐ pkg
+        ☐ index -> custom runner
+        ✔ pkg.sh @done (7/15/2021, 3:39:18 PM)
+      ☐ tpl
+        ☐ index -> custom runner
+        ✔ files/folders -> workdir @done (7/15/2021, 3:39:20 PM)
+
+link/unlink:
+  ☐ link [plugin] folders
+    ☐ file
+    ☐ http
+  ☐ config
