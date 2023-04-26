@@ -2,6 +2,9 @@ butterfly use [plugin]
 
 folder1/folder2/[plugin]
 
+configrc:
+  ☐ npmClient
+
 use:
   [plugin]:
     ☐ index -> custom runner
@@ -17,3 +20,12 @@ link/unlink:
     ☐ file
     ☐ http
   ☐ config
+
+presets:
+  format:
+    ☐ prettier
+    ☐ editorconfig
+  ☐ commitlint
+  ☐ husky
+  ☐ eslint
+  ☐ stylelint
